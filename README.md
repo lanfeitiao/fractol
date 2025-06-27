@@ -12,7 +12,7 @@ Interactive fractal visualization program with real-time rendering and navigatio
 
 | Mandelbrot Set | Julia Set | Burning Ship Fractal |
 |:--------------:|:---------:|:--------------------:|
-| ![Mandelbrot Set](screenshots/mandelbrot.png) | ![Julia Set](screenshots/julia.png) | ![Burning Ship](screenshots/burning_ship.png) |
+| <img src="screenshots/mandelbrot.png" width="250" height="250"> | <img src="screenshots/julia.png" width="250" height="250"> | <img src="screenshots/burning_ship.png" width="250" height="250"> |
 
 ## 🚀 Installation
 
@@ -28,7 +28,7 @@ brew install cmake
 ### Build the Project
 ```bash
 # Clone and navigate to the project
-git clone <repository-url>
+git clone <https://github.com/lanfeitiao/fractol.git>
 cd fractol
 
 # Compile the project
@@ -45,9 +45,6 @@ make
 ```
 
 ![Usage](screenshots/usage.png)
-
-```bash
-```
 
 **Interesting Julia Set parameters**:
 - `./fractol julia -0.4 0.6` - Classic Julia set
@@ -76,7 +73,7 @@ The program includes several stunning color palettes:
 ## 🧮 Mathematical Background
 
 ### Mandelbrot Set
-The Mandelbrot set is defined as the set of complex numbers c for which the sequence z₀ = 0, z_{n+1} = z_n² + c does not diverge.
+The Mandelbrot set is all complex numbers c for which, if you start at 0 and repeatedly apply z → z² + c, the values never fly off to infinity.
 
 ### Julia Set
 Julia sets are defined by the iteration z_{n+1} = z_n² + c, where c is a fixed complex parameter and z₀ varies across the complex plane.
