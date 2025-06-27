@@ -10,14 +10,9 @@ Interactive fractal visualization program with real-time rendering and navigatio
 
 ## Screenshots
 
-### Mandelbrot Set
-![Mandelbrot Set](screenshots/mandelbrot.png)
-
-### Julia Set
-![Julia Set](screenshots/julia.png)
-
-### Burning Ship Fractal
-![Burning Ship](screenshots/burning_ship.png)
+| Mandelbrot Set | Julia Set | Burning Ship Fractal |
+|:--------------:|:---------:|:--------------------:|
+| ![Mandelbrot Set](screenshots/mandelbrot.png) | ![Julia Set](screenshots/julia.png) | ![Burning Ship](screenshots/burning_ship.png) |
 
 ## 🚀 Installation
 
@@ -47,7 +42,12 @@ make
 ```bash
 # Display usage information
 ./fractol
+```
+
 ![Usage](screenshots/usage.png)
+
+```bash
+```
 
 **Interesting Julia Set parameters**:
 - `./fractol julia -0.4 0.6` - Classic Julia set
